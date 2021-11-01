@@ -1,7 +1,6 @@
 <?php include("header.php");
  ?>
 <body>
-
   <?php
         include("main-container-tecnico.php");
 
@@ -13,8 +12,6 @@
 					<i class="fas fa-plus fa-fw"></i> &nbsp; ASIGNAR SOLUCIÓN A LA INCIDENCIA
 				</h3>
 			</div>
-
-
 
 			<!-- Content here-->
 			<div class="container-fluid">
@@ -48,7 +45,6 @@
 				</form>
         <?php
         if($_GET["descripcion_solucion"]){
-
            $var=mysqli_query($link, "select * from asignaciones  where id=$_GET[id_asignacion]");
                 while ($r= mysqli_fetch_assoc($var)) {
                   $id_incidencia= $r["incidencias_id"];
@@ -78,6 +74,9 @@
                         }
                   });
                  </script>";
+          }
+          else{
+            
           }
 
         ?>
