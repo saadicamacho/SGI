@@ -22,6 +22,8 @@
 
            ?>
 
+
+
             <!--CONTENT-->
            <div class="container-fluid">
 				<div class="table-responsive">
@@ -67,6 +69,8 @@
 
 
                ?>
+
+               
                <tr class="text-center" <?php if($row["status"]==0){ ?>style="background-color: #FEDDD4;"<?php } ?><?php if($row["status"]==1){ ?>style="background-color: #ffe2d1;"<?php } ?><?php if($row["status"]==2){ ?>style="background-color: #E1E4CC;"; <?php } ?> <?php if($row["status"]==3||$row["status"]==4){ ?>style="background-color: #e1f0c4;"<?php } ?>>
                  <td><?php echo $r["id"]; ?></td>
 

@@ -6,7 +6,6 @@
       include("main-container-jefe-atencion.php");
    ?>
 
-
             <!--CONTENT-->
             <div class="container-fluid">
             	<div class="container-fluid form-neon">
