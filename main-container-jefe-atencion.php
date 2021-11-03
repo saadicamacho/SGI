@@ -14,6 +14,7 @@
           </small>
         </figcaption>
       </figure>
+      
       <div class="full-box nav-lateral-bar"></div>
       <nav class="full-box nav-lateral-menu">
         <ul>

@@ -16,6 +16,7 @@
 
 
 
+
 			<!-- Content here-->
 			<div class="container-fluid">
 				<form action="" class="form-neon" autocomplete="off">
@@ -30,6 +31,7 @@
                     <input type="text" pattern="[0-9]{1,140}" class="form-control" name="id_incidencia" id="id_incidencia" maxlength="140" value="<?php echo $_GET["id"] ?>">
                   </div>
                 </div>
+                
                 <div class="col-12 col-md-6">
                   <div class="form-group">
                     <label for="item_estado" class="bmd-label-floating">Asignar Técnico (*)</label>

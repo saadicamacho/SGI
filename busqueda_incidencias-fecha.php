@@ -103,6 +103,8 @@
                       // maximo por pagina
                       $limit = 5;
 
+
+                      
                       // pagina pedida si
                       $pag = (int) $_GET["pag"];
                       if ($pag < 1)
