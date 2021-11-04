@@ -4,12 +4,16 @@
  ?>
 
 
+
+
     <!-- Page header -->
     <div class="full-box page-header">
       <h3 class="text-left">
         <i class="fab fa-dashcube fa-fw"></i> &nbsp; INCIDENCIAS
       </h3>
     </div>
+
+
 
     <!--CONTENT-->
    <div class="container-fluid">
@@ -103,6 +107,7 @@
         </td>
 
 
+        
                       <?php    }
 
 
