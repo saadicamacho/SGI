@@ -9,9 +9,7 @@
           echo "<script>location.href='index.php';</script>";
         }
    ?>
-
-
-            <!-- Page header -->
+<!-- Page header -->
 
             <div class="full-box page-header">
                 <h3 class="text-left">
@@ -92,8 +90,6 @@
         }
 
         ?>
-
-
 
     </main>
 
