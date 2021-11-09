@@ -23,9 +23,9 @@
 				</div>
 				<button type="submit" class="btn-login text-center" name="inicio_sesion">INCIAR SESIÓN</button>
 			</form>
-     
 	 
 	 <?php
+	 
 			  if($_POST["usuario"]&&$_POST["clave"]){
 
 							 $varif=mysqli_query($link, "select * from trabajadores where cedula='".$_POST["usuario"]."' and password  ='".base64_encode($_POST["clave"])."' ");

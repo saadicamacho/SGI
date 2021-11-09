@@ -22,6 +22,8 @@
 
            ?>
 
+
+
             <!--CONTENT-->
            <div class="container-fluid">
 				<div class="table-responsive">
@@ -39,6 +41,8 @@
 							</tr>
 						</thead>
 						<tbody>
+
+            
               <?php
                 // maximo por pagina
                 $limit = 5;
