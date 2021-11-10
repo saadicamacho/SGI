@@ -51,7 +51,9 @@
                 }
 
 
+
                 
+
             mysqli_query($link, "update asignaciones set solucion='".$_GET["descripcion_solucion"]."', fecha_fin= now() where id=$_GET[id_asignacion] limit 1 ");
             mysqli_query($link, "update incidencias set status=2 where id=$id_incidencia limit 1 ");
 

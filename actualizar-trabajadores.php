@@ -4,6 +4,7 @@
 
 
 
+
 <?php
     include("main-container-root.php");
     if($_SESSION["dependencia_id"]>0){
@@ -11,6 +12,7 @@
       echo "<script>location.href='index.php';</script>";
     }
 ?>
+
 
 			<!-- Page header -->
 			<div class="full-box page-header">
@@ -35,6 +37,8 @@
 										<input type="text" pattern="[a-zA-Z0-9-]{1,27}" class="form-control" name="cliente_dni" id="cliente_dni" maxlength="27" value="<?php echo $row["cedula"]; ?>" >
                 	</div>
 								</div>
+
+                
 								<div class="col-12 col-md-6">
 									<div class="form-group">
 										<label for="cliente_nombre" class="bmd-label-floating">Nombre  (*)</label>

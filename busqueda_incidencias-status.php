@@ -208,6 +208,7 @@
 
             	</div>
 
+              
            <?php
           if(isset($_GET["buscar_status"])&&!$existe){
              echo"<script>
@@ -222,7 +223,7 @@
            }
 
 
-           
+
            ?>
 
 			</div>
