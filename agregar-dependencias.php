@@ -2,6 +2,7 @@
  ?>
 <body>
 
+
   <?php
         include("main-container-root.php");
         if($_SESSION["dependencia_id"]>0){
@@ -45,12 +46,14 @@
 			</div>
         </section>
         <?php
+
         if(isset($_GET["agregar_dependecia"])&&$_GET["nombre"]){
               $t=mysqli_query($link, "select * from dependencias where nombre like '%".trim($_GET[nombre])."%' ");
                     while ($q1= mysqli_fetch_assoc($t)) {
                     $existe=1;
               }
         }
+        
         if(!$existe){
                   if($_GET["nombre"]){
 
